@@ -1,11 +1,11 @@
 Rails.application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
+  # Settings specified here will take precedence over those in config/home.rb.
 
   # Code is not reloaded between requests.
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
-  # your application in memory, allowing both threaded web servers
+  # your home in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
@@ -14,7 +14,7 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
-  # Enable Rack::Cache to put a simple HTTP cache in front of your application
+  # Enable Rack::Cache to put a simple HTTP cache in front of your home
   # Add `rack-cache` to your Gemfile before enabling this.
   # For large-scale production use, consider using a caching reverse proxy like nginx, varnish or squid.
   # config.action_dispatch.rack_cache = true
@@ -58,7 +58,7 @@ Rails.application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets.
-  # application.js, application.scss, and all non-JS/CSS in app/assets folder are already added.
+  # home.js, home.scss, and all non-JS/CSS in app/assets folder are already added.
   # config.assets.precompile += %w( search.js )
 
   # Ignore bad email addresses and do not raise email delivery errors.
